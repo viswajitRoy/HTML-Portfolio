@@ -1,0 +1,741 @@
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	
+	.BMW-home-header .BMW-hero p {
+		margin: 730px auto 190px;
+	}	
+	
+	
+}
+/*===--End of Media min-resolution: 192dpi--==*/
+
+
+@media (min-width:2660px) {	
+	.BMW-content-header nav::before {
+		transform: skewY(1deg);
+		bottom:-46px;
+	}
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -30px;
+    	transform: skewY(-5deg);
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 166px 40px 0;
+	}
+	
+}
+/*===--End of Media max-width:2660px--==*/
+
+
+
+@media (min-width:3800px) {	
+	.BMW-content-header nav::before {
+		transform: skewY(1deg);
+		bottom:-46px;
+	}
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -30px;
+    	transform: skewY(-5deg);
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 166px 40px 0;
+	}
+	
+}
+
+
+@media (min-width:2580px) {
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -15px;
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 150px 40px 0;
+	}
+	
+	.BMW-home-header .navbar-header {
+		width:14%;
+	}
+	
+	.BMW-home-header .BMW-hero p {
+		margin:100% auto 330px;	
+	}
+
+}
+/*===--End of Media max-width:2580px--==*/
+
+
+
+@media (max-width:2560px) {
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -30px;
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 165px 40px 0;
+	}	
+	
+	.BMW-home-header .BMW-hero p {
+		margin:100% auto 320px;	
+	}
+	
+	
+
+}
+/*===--End of Media max-width:2560px--==*/
+
+
+
+@media (min-width:1920px) {
+	
+	.BMW-introduction {
+		padding-bottom:280px;	
+	}
+
+	.angleShape::before {
+		padding-bottom: 340px;
+		top: -330px;
+	}
+	
+	
+}
+/*===--End of Media min-width:1920px--==*/
+
+
+
+
+@media (max-width:1920px) {
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -33px;
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 170px 40px 0;
+	}	
+	
+	.BMW-home-header .BMW-hero p {
+		margin:92% auto 285px;	
+	}
+	
+
+}
+/*===--End of Media max-width:1920px--==*/
+
+
+
+@media (max-width:1666px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:76% auto 190px;	
+	}
+	
+
+}
+/*===--End of Media max-width:1666px--==*/
+
+
+@media (max-width:1566px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:72% auto 190px;	
+	}
+	
+
+}
+/*===--End of Media max-width:1566px--==*/
+
+
+
+@media (max-width:1466px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:65% auto 190px;	
+	}
+
+}
+/*===--End of Media max-width:1466px--==*/
+
+
+
+@media (max-width:1366px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:55% auto 190px;	
+	}
+
+
+	.BMW-content-header .navbar-header::before {
+		bottom: -38px;
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 173px 40px 0;
+	}
+	
+	
+	
+
+}
+/*===--End of Media max-width:1366px--==*/
+
+
+
+@media (min-width:1167px) and (max-width:1266px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:62% auto 190px;	
+	}
+
+}
+/*===--End of Media max-width:1266px--==*/
+
+
+
+@media (min-width:1060px) and (max-width:1166px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:60% auto 190px;	
+	}
+
+}
+/*===--End of Media max-width:1166px--==*/
+
+
+
+@media (min-width:992px) and (max-width:1059px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:52% auto 160px;	
+	}
+
+}
+/*===--End of Media max-width:1166px--==*/
+
+
+
+@media (min-width:892px) and (max-width:991px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:70% auto 140px;	
+	}
+
+}
+/*===--End of Media max-width:1166px--==*/
+
+
+
+@media (min-width:792px) and (max-width:891px) {
+	
+	.BMW-home-header .BMW-hero p {
+		margin:58% auto 120px;	
+	}
+
+}
+/*===--End of Media max-width:1166px--==*/
+
+
+
+
+@media (max-width:1024px) {
+	.BMW-home-header .main-menu li {
+		padding:0 30px;
+	}
+	
+	/*.BMW-home-header .BMW-hero p {
+		margin:420px auto 160px;	
+	}*/
+	
+	.BMW-introduction .introduction-item .pText {
+		font-size:16px;
+		min-height:360px;
+	}
+	
+	.investmentAreas .investmentAreas-text {
+		width:80%;
+		margin-left:20%;
+	}
+	
+	.BMW-content-header nav::before {
+		bottom:-36px;		
+	}
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -30px;
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 165px 40px 0;
+	}
+	
+	
+	
+
+}
+/*===--End of Media max-width:1024px--==*/
+
+
+@media (min-width:1025px) and (max-width:1120px) {
+  
+ .BMW-home-header .main-menu li {
+  	padding:0 40px;
+ }
+ 
+}
+/*===--End of Media (min-width:1025px) and (max-width:1120px)--==*/
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+	
+	
+	
+	
+	
+	
+	
+}
+/*===--End of Media min-width:768px and max-width:1024px--==*/
+
+
+
+
+@media (max-width:991px) {
+	
+	.BMW-home-header nav {
+		padding:35px 25px 90px;
+	}
+	
+	.BMW-content-header nav {
+		padding:0 !important;
+	}
+	
+	.BMW-content-header nav::before {
+		bottom:-30px;		
+	}
+	
+	.BMW-home-header .navbar-header {
+		width:20%;
+	}
+	
+	.BMW-content-header .navbar-header {
+		padding:35px 0 20px 25px;
+	}
+	
+	.BMW-content-header .navbar-header::before {
+		bottom: -20px;
+	}
+	
+	.BMW-content-header .navbar-header::after {
+		border-width: 126px 50px 0;
+		right: -50px;
+	}
+	
+	.BMW-home-header .nav-menu-right {
+		width:80%;
+		padding-left:10px;
+	}
+	
+	.BMW-content-header .nav-menu-right {
+		padding:35px 25px 5px 10px;
+	}
+	
+	.BMW-home-header .main-menu li {
+		padding:0 20px;
+	}
+	
+	.BMW-home-header .main-menu li a {
+		font-size:14px;
+		padding:0 0 20px;
+	}
+	
+	.BMW-home-header .BMW-hero p {
+		max-width: 510px;
+		font-size: 20px;
+	}
+	
+	.portfolioWrapContent .portfolioItem .innerContent .imgWrap {
+		height: 200px;
+		line-height: 200px;
+	}
+	
+	.BMW-introduction .introduction-item h4 {
+		font-size:17px;
+	}
+	
+	.angleShape::before {
+		top:-170px;
+	}
+	
+	.BMW-introduction {
+		padding-bottom:120px;	
+	}
+
+	
+	
+	
+}
+/*===--End of Media max-width-991px--==*/
+
+
+
+
+
+@media (min-width:768px) {
+	
+	
+	.navbarPC {
+		display:block;
+	}
+	
+	.navbarMB,
+	.sidebarmenu {
+		display:none;
+	}	
+	
+	
+}
+/*===--End of Media min-width-768px--==*/
+
+
+
+@media (max-width:767px) {
+	
+/*--Start Mobile nav style--*/
+	
+	nav.navbar.navbarMB,
+	.sidebarmenu {
+		display:block;	
+	}
+	
+	.navbarPC {
+		display:none;
+	}
+	
+	.BMW-content-header nav.navbarMB::before {
+		bottom: -30px;
+		transform: skewY(2deg);
+	}
+	
+	.navbar-header-mobile {
+		width:100%;
+		display:block;
+		float:left;
+	}
+	
+	.navbar-header-mobile .navbar-brand {
+		padding:0;
+		margin:0;
+	}
+		
+	.navbar-header-mobile .navbar-brand img {
+		max-width:210px;
+	}
+	
+	.navbar-header-mobile .navbar-toggle {
+		background: none;
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	
+	.navbar-header-mobile .navbar-toggle img {
+		max-width:24px;
+	}
+		
+	
+/*--End Mobile nav style--*/
+	
+	
+	
+	
+	header.BMW-home-header {
+		background-position:center top;
+		background-size:cover;
+	}
+	
+	.BMW-home-header .navbar-header {
+		width:100%;
+		margin-bottom:10px;
+	}
+	
+	.BMW-home-header nav {
+		padding:35px 25px 60px;
+	}
+	
+	.BMW-home-header .mobile-nav {
+		margin:0;
+		line-height:30px;
+		position:relative;
+		padding-right:0;
+	}
+	
+	.BMW-home-header .mobile-nav img.hamburger-icon {
+		max-width:22px;		
+		margin-top:6px;
+	}	
+	
+	.BMW-home-header .mobile-nav img.close-icon {
+		max-width:15px;
+	}	
+	
+	.BMW-home-header .mobile-nav img.close-icon {
+		display:none;
+	}
+	
+	
+	.BMW-home-header .nav-menu-right {
+		width:100%;
+	}
+	
+	.BMW-home-header .main-menu li {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	
+	.BMW-home-header .main-menu li a {
+		display:inherit;
+		padding-bottom:5px;
+		margin-bottom:10px;
+	}
+	
+	.BMW-home-header .main-menu li a:hover, 
+	.BMW-home-header .main-menu li.active a {
+		display:inherit;
+	}
+	
+	.BMW-home-header #mobileMenuCollapsing {
+		width:100%;
+		border:none;
+	}
+	
+	.BMW-home-header .BMW-hero p {
+		margin: 340px auto 130px;
+		font-size: 18px;
+		line-height: 26px;
+		max-width:440px;
+	}
+	
+	.investmentAreas::before {
+		top:-120px;		
+	}
+	
+	.investmentAreas .container,
+	.investmentAreas .container figure.col-xs-12 {
+		padding:0;	
+	}
+	
+	.investmentAreas .investmentAreas-text {
+		width:100%;
+		margin-left:0%;
+		padding:0;		
+	}
+	
+	.investmentAreas .investmentAreas-text ul {
+		padding:20px 0 130px; 
+	}
+	
+	.investmentAreas .investmentAreas-text ul li {
+		padding:0 20px;
+	}
+	
+	.investmentAreas .investmentAreas-text ul li .listContent a {
+		font-size: 18px;	
+	}
+	
+	.investmentAreas .investmentAreas-text ul li .listContent p {
+		font-size: 18px;	
+		padding:0;
+	}
+		
+	.BMW-footer .footerAwesome span {
+		width:100%;
+		margin-right:0;
+		text-align:center;
+	}
+	
+	.BMW-introduction .introduction-item h4 {
+		background: url(../images/mbnode-bg-top.png) no-repeat scroll center bottom / auto;
+		padding-bottom: 108px;
+		margin-bottom: 30px;
+	}
+	
+	.BMW-introduction .introduction-item .pText {
+		min-height: initial;
+		background: url(../images/mbnode-bg-bottom.png) no-repeat scroll center bottom / auto;
+		padding-top: 0;
+		padding-bottom: 70px;
+		margin-bottom:50px;
+		font-size:18px;
+	}
+	
+	.BMW-introduction .introduction-item:last-child .pText {
+		margin-bottom:0;
+	}
+	
+	.pageTitleCont h6 {
+		font-size:20px;
+		line-height:28px;
+	}
+	
+	.portfolioWrapContent {
+		padding:0;
+	}
+	
+	.portfolioWrapContent .portfolioItem .innerContent .imgWrap {
+		height: 140px;
+		line-height: 140px;
+	}
+	
+	.teamWrapContent .teamItem {
+		margin-bottom:20px;		
+	}
+	
+	.teamItem .hoverWrap .hoverCont {
+		bottom: 20px;
+	}
+	
+	.newsItem p {
+		min-height:inherit;		
+	}
+	
+	.locationItem {
+		margin-bottom:50px;	
+	}
+	
+	.angleShape::before {
+		top: -120px;
+	}
+	
+	.portfolioWrapContent .portfolioItem .innerContent img.nauto {
+		max-width: 60px;
+	}
+	
+	.portfolioWrapContent .portfolioItem .innerContent img.zenLogo {
+		max-width: 30%;
+	}
+	
+	.investmentAreas {
+		background: #50a7cc url("../images/investmentAreas-bg-left.png") no-repeat scroll 0 0 / 140% auto;
+	}
+	
+	
+	
+	
+}
+/*===--End of Media max-width-767px--==*/
+
+
+@media (max-width:680px) {
+		
+	.BMW-content-header nav.navbarMB::before {
+		transform: skewY(3deg);
+	}
+	
+		
+	
+		
+}
+/*===--End of Media max-width-680px--==*/
+
+
+
+@media (max-width:640px) {
+	
+	
+	.BMW-home-header .BMW-hero p {
+		margin:370px auto 90px;
+	}
+	
+	.investmentAreas .investmentAreas-text ul li .listContent a,
+	.investmentAreas .investmentAreas-text ul li .listContent p {
+		font-size: 16px;	
+	}
+	
+	.BMW-content-header nav.navbarMB::before {
+		transform: skewY(6deg);
+	}
+	
+		
+		
+}
+/*===--End of Media max-width-640px--==*/
+
+
+
+@media (max-width:570px){
+	
+	.BMW-content-header nav.navbarMB::before {
+		transform: skewY(4deg);
+	}	
+	
+		
+}
+/*===--End of Media max-width-570px--==*/
+
+
+
+@media (max-width:420px){
+	
+	.BMW-content-header nav.navbarMB::before {
+    	transform: skewY(7deg);
+	}
+	
+	
+	
+	.portfolioWrapContent .portfolioItem .innerContent img.zenLogo {
+		max-width: 50%;
+	}
+	
+	
+	
+		
+}
+/*===--End of Media max-width-420px--==*/
+
+
+
+@media (max-width:380px){
+	
+	.BMW-content-header nav.navbarMB::before {
+    	transform: skewY(8deg);
+	}
+	
+		
+}
+/*===--End of Media max-width-380px--==*/
+
+
+
+@media (max-width:340px){
+	
+	.BMW-home-header .BMW-hero p {
+		font-size: 14px;
+		line-height: 22px;
+		margin:300px auto 90px;
+	}
+	
+	.BMW-content-header nav.navbarMB::before {
+    	transform: skewY(9deg);
+	}
+
+	.investmentAreas .investmentAreas-text ul li .listContent a,
+	.investmentAreas .investmentAreas-text ul li .listContent p {
+		font-size: 14px;	
+	}
+	
+	.investmentAreas .investmentAreas-text ul li .listContent::before {
+		margin-right:10px;
+	}
+	
+	
+	
+
+}
+/*===--End of Media max-width-340px--==*/
