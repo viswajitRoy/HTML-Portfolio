@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">  
+    <title>B-2.4.0</title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/png" href="assets/images/183logo-favicon.png" sizes="16x16"/>
+
+	<!--Bootstrap-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--font-awesome CSS-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">    
+    
+    <!--Custom Template CSS-->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+   
+    <!--Media Query CSS-->
+    <link href="assets/css/media-query-all.css" rel="stylesheet" type="text/css"> 
+   
+    <!--slick CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>    
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    
+    
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">     
+        
+    
+  </head>
+  
+  
+  <body class="dashboard-body">
+    
+    
+    <header class="block dashboard-header">
+        <article class="container">
+        	<figure class="row">
+            	<figure class="col-md-12 col-sm-12 col-xs-12 dashboard-navigation">
+                                        
+                    <figure class="col-md-1 col-sm-1 col-xs-12 brand-logo">
+                        <a href="#"><img src="assets/images/183logo-white.png" alt="logo" /></a>
+                        
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                    </figure>
+                    <!-- /.brand-logo -->
+                    
+                    <figure class="col-md-11 col-sm-11 col-xs-12 dashboard-main-menu">
+                        <figure class="collapse navbar-collapse">
+                            <ul class="pull-left">
+                                <li><a href="#">Dashboard</a></li>
+                                <li><a href="#">My Documents</a></li>           
+                            </ul>
+                            <ul class="pull-right">
+                                <li><a href="#">Notifications</a></li>
+                                <li class="active"><a href="#">Account</a></li>
+                                <li><a href="#">Sign Out</a></li>              
+                            </ul>
+                        </figure>
+                        <!-- /.collapse -->
+                    </figure>
+                    <!-- /.dashboard-main-menu -->
+                
+                </figure>
+           		<!-- /.dashboard-navigation -->
+           </figure>
+           <!-- /.row -->           
+        </article>
+        <!-- /.container -->
+    </header>
+    <!-- /.dashboard-header -->
+    
+    
+    
+    
+    <main class="block">
+    
+    	<section class="block dashboard-tab-wraper">
+    		<article class="container-fluid">
+    			<figure class="row"> 
+                            
+                    	
+                    <div class="tab-header">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                            <li><a href="#biometrics" aria-controls="biometrics" role="tab" data-toggle="tab">Biometrics</a></li>
+                            <li><a href="#share" aria-controls="share" role="tab" data-toggle="tab">Share</a></li>
+                            <li class="active"><a href="#notifications" aria-controls="notifications" role="tab" data-toggle="tab">Notifications</a></li>
+                        </ul>
+                        <!-- /.nav-tabs -->
+                    </div>
+                    <!-- /.tab-header -->
+                    
+                    
+                    <div class="tab-content dashboard">
+                        
+                        <div role="tabpanel" class="tab-pane profile" id="profile">
+                            
+                                                        
+                        
+                        </div>
+                        <!-- /#profile -->
+                        
+                        
+                        
+                        <div role="tabpanel" class="tab-pane biometrics" id="biometrics">
+                        	 
+                            
+                            
+                        </div>
+                        <!-- /#biometrics -->
+                        
+                        
+                        
+                        <div role="tabpanel" class="tab-pane share" id="share">
+                        	
+                            
+                            
+                            
+                        </div>
+                        <!-- /#share -->
+                        
+                        
+                        
+                        <div role="tabpanel" class="tab-pane notifications active" id="notifications">
+                        	
+                            <p class="text-center edit-info-subtitle make-it">Notifications make it easy for you to remember to log your location. How would you like us to reach you?</p>
+                            
+                            
+                          <form class="get-form">
+                            
+                            	<table class="table notifications-table">
+                                	<tr>
+                                    	<th></th>
+                                        <th>email</th>
+                                        <th>sms notifications</th>
+                                    </tr>
+                                    <tr>
+                                    	<td>App Updates</td>
+                                        <td>
+                                        	<div class="custon-checkbox">
+                                                <input id="appUpdateEmail" checked="" type="checkbox">
+                                                <label for="appUpdateEmail"></label>
+                                        	</div>
+                                        </td>                                        
+                                        <td>
+                                        	<div class="custon-checkbox">
+                                                <input id="appUpdateSMS" checked="" type="checkbox">
+                                                <label for="appUpdateSMS"></label>
+                                        	</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Product news</td>
+                                        <td>
+                                        	<div class="custon-checkbox">
+                                                <input id="productNewsEmail" checked="" type="checkbox">
+                                                <label for="productNewsEmail"></label>
+                                        	</div>
+                                        </td>                                        
+                                        <td>
+                                        	<div class="custon-checkbox">
+                                                <input id="productNewsSMS" checked="" type="checkbox">
+                                                <label for="productNewsSMS"></label>
+                                        	</div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>Recommend advice</td>
+                                        <td>
+                                        	<div class="custon-checkbox">
+                                                <input id="recommendAdviceEmail" checked="" type="checkbox">
+                                                <label for="recommendAdviceEmail"></label>
+                                        	</div>
+                                        </td>                                        
+                                        <td>
+                                        	<div class="custon-checkbox">
+                                                <input id="recommendAdviceSMS" type="checkbox">
+                                                <label for="recommendAdviceSMS"></label>
+                                        	</div>
+                                        </td>
+                                    </tr>
+                                </table>                            	
+                                
+                                
+                            	<h4 class="do-not">Do Not Disturb</h4>
+                            	
+                              	<p class="input-subtitle-text we-dont">We don't want to be a bother. Please tell us when you don't want notifications from home183.</p>
+                            	
+                                <div class="form-group from-to-group">
+                                
+                                	<select class="form-control">
+                                      <option value="">Select Time</option>
+                                      <option value="ca" selected="">03:00 AM</option>
+                                    </select>
+                                    
+                                    <span class="to">to</span>
+                                    
+                                    <select class="form-control">
+                                      <option value="">Select Time</option>
+                                      <option value="ca" selected="">05:00 AM</option>
+                                    </select>
+                                    
+                                </div>
+                                
+                                <div class="form-group add-another">
+                                    <a href="#"><img src="assets/images/add-icon.png" alt="icon"> Add Another</a>
+                                </div>                        
+                                
+                            	<div class="form-group get-started-btn">                                  
+                              		<button type="submit" class="btn btn-global-style">Save</button>
+                                </div>
+                                                          
+                            </form>
+                       	 	<!-- /.get-form -->
+                             
+                            
+                        </div>
+                        <!-- /#notifications -->
+                        
+                        
+                             
+                    </div>
+                    <!-- /.tab-content -->
+                    
+                        
+                </figure>
+                <!-- /.row -->
+    		</article>
+    		<!-- /.container-fluid -->
+    	</section> 
+       	<!-- /.dashboard-tab-wraper --> 
+        
+        
+        
+    </main>
+    <!-- main -->
+    
+    
+    
+    
+    
+    <footer class="block home183-footer dashboard">
+        <article class="container">
+            <figure class="row">
+                <figure class="inner-content">
+                	
+                    <p class="pull-left all-rights">home183 All rights reserved 2017</p>
+                    
+                    <ul class="pull-right footer-menu">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>             
+                
+                </figure>
+                <!-- /.inner-content -->
+            </figure>
+            <!-- /.row -->
+        </article>
+        <!-- /.container -->
+    </footer>
+    <!-- /.home183-footer -->
+    
+    
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    
+    
+    
+    
+  </body>
+</html>

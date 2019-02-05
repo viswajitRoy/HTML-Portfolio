@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">  
+    <title>B-1.0.0</title>
+    <meta name="description" content="">
+    <link rel="icon" type="image/png" href="assets/images/183logo-favicon.png" sizes="16x16"/>
+
+	<!--Bootstrap-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!--font-awesome CSS-->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">    
+    
+    <!--Custom Template CSS-->
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+   
+    <!--Media Query CSS-->
+    <link href="assets/css/media-query-all.css" rel="stylesheet" type="text/css"> 
+   
+    <!--slick CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css"/>    
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css"/>
+    
+    
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700" rel="stylesheet">      
+        
+    
+  </head>
+  
+  
+  <body class="dashboard-body">
+    
+    <header class="block dashboard-header">
+        <article class="container">
+        	<figure class="row">
+            	<figure class="col-md-12 col-sm-12 col-xs-12 dashboard-navigation">
+                                        
+                    <figure class="col-md-1 col-sm-1 col-xs-12 brand-logo">
+                        <a href="#"><img src="assets/images/183logo-white.png" alt="logo" /></a>
+                        
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        
+                    </figure>
+                    <!-- /.brand-logo -->
+                    
+                    <figure class="col-md-11 col-sm-11 col-xs-12 dashboard-main-menu">
+                        <figure class="collapse navbar-collapse">
+                            <ul class="pull-left">
+                                <li><a href="#">Dashboard</a></li>
+                                <li class="active"><a href="#">My Documents</a></li>           
+                            </ul>
+                            <ul class="pull-right">
+                                <li><a href="#">Notifications</a></li>
+                                <li><a href="#">Account</a></li>
+                                <li><a href="#">Sign Out</a></li>              
+                            </ul>
+                        </figure>
+                        <!-- /.collapse -->
+                    </figure>
+                    <!-- /.dashboard-main-menu -->
+                
+                </figure>
+           		<!-- /.dashboard-navigation -->
+           </figure>
+           <!-- /.row -->           
+        </article>
+        <!-- /.container -->
+    </header>
+    <!-- /.dashboard-header -->
+    
+    
+    
+    <main class="block">
+       
+       
+        <section class="block filter-month-wrap">
+            <article class="container">
+                <figure class="row">
+                    <figure class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="filter-month">
+                            <p>Filter by</p>
+                            
+                            <div class="form-group">
+                                <button class="btn dropdown-toggle" type="button" id="item1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> Month </button>
+                                <ul class="dropdown-menu" aria-labelledby="item1">
+                                    <li><a href="#">Month</a></li>
+                                    <li><a href="#">Year</a></li>
+                                    <li><a href="#">Custom</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.form-group -->
+                            
+                            <div class="form-group">
+                                <button class="btn dropdown-toggle" type="button" id="item2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> February </button>
+                                <ul class="dropdown-menu" aria-labelledby="item2">
+                                    <li><a href="#">March</a></li>
+                                    <li><a href="#">Aplril</a></li>
+                                    <li><a href="#">May</a></li>
+                                </ul>
+                            </div>
+                            <!-- /.form-group -->
+                            
+                            <p class="text-center add-upload-receipt pull-right">
+                                <button type="submit" class="btn btn-global-style"><img src="assets/images/plus-icon.png" alt="Img" class="img-responsive">Upload Receipt</button>
+                            </p>
+                            
+                        </div>
+                        <!-- /.filter-month -->
+                    </figure>
+                    <!-- .col -->
+                </figure>
+                <!-- /.row -->
+            </article>
+            <!-- /.container -->
+        </section>
+        <!-- /.filter-month-wrap -->
+        
+        
+        <section class="block filter-location-wrap">
+            <article class="container">
+                <figure class="row">
+                    <figure class="col-md-12 col-sm-12 col-xs-12">
+                       
+                       
+                       <ul class="location-filter-list">
+                           
+                            <li>
+                                <div class="location-img">
+                                    <a href="#"  data-toggle="modal" data-target=".modal-slider"><img src="assets/images/pexels-photo1.png" alt="Img" class="img-responsive"></a>
+                                </div>
+                                
+                                <div class="location-text">
+                                    <p>
+                                        <span class="date-text">
+                                            Atlanta, Georgia | February 2, 2017
+                                        </span>
+                                        <span class="vendor-text">
+                                            &#60;Vendor Name&#62;
+                                        </span>
+                                        <span class="link-text">
+                                            <a href="#">Edit</a>
+                                            <a href="#">Delete</a>
+                                        </span>
+                                    </p>
+                                </div>
+                           </li>
+                           
+                           
+                            <li>
+                                <div class="location-img">
+                                    <a href="#"  data-toggle="modal" data-target=".modal-slider"><img src="assets/images/pexels-photo2.png" alt="Img" class="img-responsive"></a>
+                                </div>
+                                
+                                <div class="location-text">
+                                    <p>
+                                        <span class="date-text">
+                                            Atlanta, Georgia | February 2, 2017
+                                        </span>
+                                        <span class="vendor-text">
+                                            &#60;Vendor Name&#62;
+                                        </span>
+                                        <span class="link-text">
+                                            <a href="#">Edit</a>
+                                            <a href="#">Delete</a>
+                                        </span>
+                                    </p>
+                                </div>
+                           </li>
+                           
+                           
+                            <li>
+                                <div class="location-img">
+                                    <a href="#"  data-toggle="modal" data-target=".modal-slider"><img src="assets/images/pexels-photo3.png" alt="Img" class="img-responsive"></a>
+                                </div>
+                                
+                                <div class="location-text">
+                                    <p>
+                                        <span class="date-text">
+                                            Atlanta, Georgia | February 2, 2017
+                                        </span>
+                                        <span class="vendor-text">
+                                            &#60;Vendor Name&#62;
+                                        </span>
+                                        <span class="link-text">
+                                            <a href="#">Edit</a>
+                                            <a href="#">Delete</a>
+                                        </span>
+                                    </p>
+                                </div>
+                           </li>
+                           
+                           
+                            <li>
+                                <div class="location-img">
+                                    <a href="#"  data-toggle="modal" data-target=".modal-slider"><img src="assets/images/pexels-photo4.png" alt="Img" class="img-responsive"></a>
+                                </div>
+                                
+                                <div class="location-text">
+                                    <p>
+                                        <span class="date-text">
+                                            Atlanta, Georgia | February 2, 2017
+                                        </span>
+                                        <span class="vendor-text">
+                                            &#60;Vendor Name&#62;
+                                        </span>
+                                        <span class="link-text">
+                                            <a href="#">Edit</a>
+                                            <a href="#">Delete</a>
+                                        </span>
+                                    </p>
+                                </div>
+                           </li>
+                           
+                           
+                            <li>
+                                <div class="location-img">
+                                    <a href="#"  data-toggle="modal" data-target=".modal-slider"><img src="assets/images/pexels-photo5.png" alt="Img" class="img-responsive"></a>
+                                </div>
+                                
+                                <div class="location-text">
+                                    <p>
+                                        <span class="date-text">
+                                            Atlanta, Georgia | February 2, 2017
+                                        </span>
+                                        <span class="vendor-text">
+                                            &#60;Vendor Name&#62;
+                                        </span>
+                                        <span class="link-text">
+                                            <a href="#">Edit</a>
+                                            <a href="#">Delete</a>
+                                        </span>
+                                    </p>
+                                </div>
+                           </li>
+                           
+                           
+                            <li>
+                                <div class="location-img">
+                                    <a href="#"  data-toggle="modal" data-target=".modal-slider"><img src="assets/images/pexels-photo6.png" alt="Img" class="img-responsive"></a>
+                                </div>
+                                
+                                <div class="location-text">
+                                    <p>
+                                        <span class="date-text">
+                                            Atlanta, Georgia | February 2, 2017
+                                        </span>
+                                        <span class="vendor-text">
+                                            &#60;Vendor Name&#62;
+                                        </span>
+                                        <span class="link-text">
+                                            <a href="#">Edit</a>
+                                            <a href="#">Delete</a>
+                                        </span>
+                                    </p>
+                                </div>
+                           </li>
+                           
+                       </ul>
+                       
+                       <p class="block text-center load-more"><a href="#">Load More</a></p>
+                       
+                    </figure>
+                </figure>
+            </article>
+        </section>
+        
+        
+        
+        
+        
+    </main>
+    <!-- main -->
+    
+    
+    
+    
+    
+    <footer class="block home183-footer dashboard">
+        <article class="container">
+            <figure class="row">
+                <figure class="inner-content"> 
+                   
+                    <p class="pull-left all-rights">home183 All rights reserved 2017</p>
+                    
+                    <ul class="pull-right footer-menu">
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>             
+                
+                </figure>
+                <!-- /.inner-content -->
+            </figure>
+            <!-- /.row -->
+        </article>
+        <!-- /.container -->
+    </footer>
+    <!-- /.home183-footer -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <section class="block all-modal">
+        <div class="container">
+            <div class="modal modal-slider fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="slider-img"> <img class="img-responsive" src="assets/images/pexels-photo-sliderimg.png" alt="Slider Img"> </div>
+                                    <div class="slider-img-text">
+                                        <h3 class="title">Chinatown New york <span class="pull-right"><a href="#">Edit</a></span></h3>
+                                        <p class="date">Mon, Jan 2, 2017</p>
+                                        <p class="vendor-name">&lt;Vendor Name&gt;</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="slider-img"> <img class="img-responsive" src="assets/images/pexels-photo-sliderimg.png" alt="Slider Img"> </div>
+                                    <div class="slider-img-text">
+                                        <h3 class="title">Chinatown New york <span class="pull-right"><a href="#">Edit</a></span></h3>
+                                        <p class="date">Mon, Jan 2, 2017</p>
+                                        <p class="vendor-name">&lt;Vendor Name&gt;</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"></a>
+                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    	<!-- /.container -->
+    </section>    
+    <!-- /.all-modal -->
+    
+    
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    
+    
+    
+    
+  </body>
+</html>
