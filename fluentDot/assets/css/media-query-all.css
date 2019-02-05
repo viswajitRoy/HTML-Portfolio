@@ -1,0 +1,170 @@
+
+
+
+
+
+/*--------------------------------------------------------------------------
+----------------------------------------------------------------------------
+                All media style
+----------------------------------------------------------------------------
+----------------------------------------------------------------------------*/
+
+
+
+@media (min-width: 1380px) {
+    
+    .mainBody {
+        margin-top: 320px;
+    }
+    
+    
+    .worksWrap {
+        margin-bottom: 300px;
+    }
+    
+    .teamWrap,
+    .aboutWrap,
+    .contactWrap {
+        margin-bottom: 250px;
+    }
+
+	
+    
+}
+/* End of @media (min-width: 1380px) */
+
+
+
+@media (min-width: 1367px) {
+    
+	
+	
+    
+}
+/* End of @media (min-width: 1367px) */
+
+
+
+@media (max-width: 1366px) {
+    
+	
+	.mainBodyWrap .container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .servicesWrap,
+    .worksWrap,
+    .teamWrap,
+    .aboutWrap,
+    .contactWrap {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    
+}
+/* End of @media (max-width: 1366px) */
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    
+}
+/* End of @media (min-width: 768px) and (max-width: 1024px) */
+
+
+
+
+
+@media (max-width: 991px) {
+    
+    
+}
+/* End of @media (max-width: 991px) */
+
+
+
+
+
+@media (min-width: 768px) {
+    
+}
+/* End of @media (min-width: 768px) */
+
+
+
+
+
+
+@media (max-width: 767px) {
+    
+    .mbHide {
+        display: none;
+    }
+    
+    .mbShow {
+        display: block;
+    }
+    
+    header.header {
+        background: #0b162c;
+        padding: 10px 0;
+    }
+    
+    .fluentFixed header.header {
+        padding: 5px 0;
+    }
+    
+    .logo a img {
+        max-width: 65px;
+    }
+    
+    .servicesWrap,
+    .worksWrap,
+    .teamWrap,
+    .aboutWrap,
+    .contactWrap {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .fluentFixed footer.fluent-footer {
+        padding-top: 30px;
+    }
+    
+    .aboutBody {
+        background: none;
+    }
+    
+    .aboutImg {
+        margin-bottom: 20px;
+    }
+    
+}
+/* End of @media (min-width: 768px) */
+
+
+
+@media (max-width:480px) {
+    
+    
+}
+/* End of @media (min-width: 400px) */
+
+
+
+
+
+@media (max-width:420px) {
+    
+	
+}
+/* End of @media (min-width: 400px) */
+

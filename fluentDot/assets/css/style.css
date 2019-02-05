@@ -1,0 +1,987 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/*=================================	
+		font-family 
+==================================*/
+
+
+
+
+@font-face {
+    font-family: 'exolight';
+    src: url('../fonts/exo-light.woff2') format('woff2'),
+         url('../fonts/exo-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'exomedium';
+    src: url('../fonts/exo-medium.woff2') format('woff2'),
+         url('../fonts/exo-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'exoregular';
+    src: url('../fonts/exo-regular.woff2') format('woff2'),
+         url('../fonts/exo-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'exodemibold';
+    src: url('../fonts/exo-semibold.woff2') format('woff2'),
+         url('../fonts/exo-semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+ 		Global style
+\*------------------------------------*/
+
+body {
+    font-family: "exoregular";
+    background:#0b162d url(../images/body-bg.png) no-repeat fixed top center / 100% 100%;
+    height: 100vh;
+	transition:all 0.5s;
+}
+
+body.fluentFixed {
+	background-size:110% 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+}
+
+.block {
+	float:left;
+	width:100%;
+}
+
+input:focus, 
+select:focus, 
+textarea:focus, 
+button:focus {
+	outline:none !important;	
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+.mbShow {
+    display: none;
+}
+
+.dotCircle {
+    background: url(../images/dot-img.png) no-repeat scroll right center;
+    padding-right: 50px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.primary-color {
+    color: #fff;
+}
+
+.brand-color {
+    color: #f72e42;
+}
+
+.fluent-btn {
+    border: 1px solid #f72e42;
+    background: transparent;
+    max-width: 190px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'exoregular';
+    transition: all .5s;
+    padding-top: 0;
+    line-height: 50px;
+}
+
+.fluent-btn:hover {
+    background: #f72e42 ;
+}
+
+.fluent-btn .dotCircle {
+    transition: all 0.5s;
+}
+
+.fluent-btn:hover .dotCircle {
+    margin-right: -5px;
+    padding-right: 55px;
+}
+
+.titleDotCircle {
+    background: url(../images/title-dot-img.png) no-repeat scroll right center / 44px auto;
+    padding-right: 60px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 34px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   mbMenu   */
+
+
+.st-container.st-menu-open {
+	overflow: hidden;
+}
+
+
+
+.mbMenu button {
+	max-width: 40px;
+	min-width: 40px;
+	position: relative;
+	width: 100%;
+	float: right;
+	margin-top: 18px;
+    height: 32px;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.mbMenu button .menu-icon {
+	display: inline-block;
+	border-radius: 5px;
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	right: 0;
+    background: #f00;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.mbMenu button .menu-icon.menu-icon-1 {
+	top: 0;
+}
+
+.mbMenu button .menu-icon.menu-icon-2 {
+	top: 20%;
+    width: 80%;
+}
+
+.mbMenu button .menu-icon.menu-icon-3 {
+	top: 37%;
+    width: 60%;
+}
+
+.mbMenu button .menu-icon.menu-icon-4 {
+	top: 57%;
+}
+
+.mbMenu button:hover .menu-icon {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	header style
+\*------------------------------------*/
+
+
+header.header {
+    padding-top: 20px;
+    background: url(../images/follow-bg.png) no-repeat scroll right top / 700px 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo a img {
+    max-width: 120px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.followUsContent {
+    margin-top: 12px;
+    transition: all 0.5s;
+}
+
+.followUsContent .followTitle {
+    display: inline-block;
+    font-family: 'exoregular';
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+.followUs {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.followUs li {
+    color: #fff;
+    display: inline-block;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+.followUs li a {
+    display: inline-block;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.followUs li:first-child {
+    margin-left: 45px;
+}
+
+.followUs li a:hover {
+    opacity: 1;
+}
+
+.followUs li a img {
+    display: inline-block;
+    max-width: 35px;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	sticky style
+\*------------------------------------*/
+
+
+
+
+.fluentFixed header {
+	padding-top: 15px;
+	background-size: 600px 65px;
+}
+
+.fluentFixed .logo a img {
+	max-width: 70px;
+}
+
+.fluentFixed .followUsContent {
+    margin-top: 0;
+}
+
+.fluentFixed .followUsContent .followTitle {
+    font-size: 14px;
+}
+
+.fluentFixed .followUs li a img {
+    max-width: 25px;
+}
+
+.fluentFixed footer.fluent-footer {
+	height: 65px;
+	background-size: 550px 100%;
+	padding-top: 35px;
+}
+
+.fluentFixed .copyRightWrap {
+	font-size:11px;
+}
+
+.fluentFixed .scrollDown {
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	mainBody style
+\*------------------------------------*/
+
+.mainBody {
+    margin-top: 160px;
+}
+
+
+.mainBody .mainMenu {
+    position: fixed;
+    left: 95px;
+    top: 0;
+    height: 100vh;
+    display: table;
+}
+
+.mainBody .mainMenu ul {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainBody .mainMenu ul li {
+    margin-bottom: 15px;
+}
+
+.mainBody .mainMenu ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: "exolight";
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+
+.mainBody .mainMenu ul li.active a:focus,
+.mainBody .mainMenu ul li.active a,
+.mainBody .mainMenu ul li a:hover {
+    color: #f72e42;
+}
+
+.mainBody .mainMenu ul li a:focus {
+    color: #fff;
+}
+
+.mainBody .mainMenu ul li.active a.dotCircle,
+.mainBody .mainMenu ul li a.dotCircle:hover {
+    background-image: url(../images/dot-img-red.png);
+}
+
+.mainBody .mainMenu ul li a.dotCircle:hover {
+    margin-right: -5px;
+    padding-right: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	mainBodyWrap style
+\*------------------------------------*/
+
+
+.mainBodyWrap {
+    padding: 15px 0 0;
+    margin-top: -25px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.weAerFluentContent {
+    margin-bottom: 130px;
+    height: 100vh;
+}
+
+.weAerFluent {
+    margin-bottom: 50px;
+	outline: none;
+}
+
+.fluentTitle {
+    font-size: 40px;
+    font-family: "exodemibold";
+    letter-spacing: 2px;
+    line-height: 54px;
+    margin-bottom: 50px;
+    
+}
+
+.fluentDetails {
+	max-width: 700px;
+	color: #fff;
+	margin: 0 auto 50px;
+    opacity: 0.4;
+	font-family: "exolight";
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	servicesWrap style
+\*------------------------------------*/
+
+.servicesWrap {
+    margin-bottom: 50px;
+}
+
+.serviceItem {
+    margin-bottom: 100px;
+}
+
+.serviceItem:focus,
+.serviceItem:active {
+    outline: none;
+}
+
+.serviceImg {
+    margin-bottom: 35px;
+    display: inline-block;
+    position: relative;
+}
+
+.serviceImg img {
+    max-width: 71px;
+    width: 100%;
+}
+
+.serviceTitle {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    transition: all 0.5s;
+}
+
+.serviceDetails {
+	font-family: "exolight";
+	font-size: 15px;
+    max-width: 310px;
+    width: 100%;
+    margin-bottom: 35px;
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+
+
+.serviceItem:hover .serviceTitle {
+    color: #f72e42;
+}
+
+.serviceItem:hover .serviceDetails {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	worksWrap style
+\*------------------------------------*/
+
+
+.worksWrap,
+.teamWrap,
+.aboutWrap,
+.contactWrap {
+    margin-bottom: 140px;
+}
+
+
+.worksWrap .title {
+    
+}
+
+
+.projectImg {
+	position: relative;
+    margin-bottom: 30px;
+}
+
+.projectImg .imgInner {
+	overflow:hidden;
+}
+
+
+.projectImg .imgInner > img {
+	transition:0.5s ease-in-out;
+}
+
+.projectImg:hover .imgInner > img {
+	transform:scale(1.2);
+}
+
+.projectHoverIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+	background: rgba(247,46,66, 0.85);
+}
+
+.projectHoverIcon a {
+    display: inline-block;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.projectHoverIcon a:hover {
+    opacity: 1;
+}
+
+.projectHoverIcon img {
+    max-width: 55px;
+    width: 100%;
+    display: inline-block;
+}
+
+.ImgMiddle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hoverSocial {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.hoverSocial li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.hoverSocial li:last-child {
+    margin-right: 0;
+}
+
+.hoverSocial li a {
+    display: inline-block;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.hoverSocial li a:hover {
+    opacity: 1;
+}
+
+.hoverSocial li a img {
+    display: inline-block;
+    max-width: 32px;
+    width: 100%;
+}
+
+.projectText {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.pro-title {
+    font-size: 18px;
+    font-family: "exomedium";
+}
+
+.teamCatagory,
+.pro-catagory {
+    font-size: 12px;
+    font-family: "exoregular";
+    color: #000;
+}
+
+.scrollRight img {
+    display: inline-block;
+    max-width: 120px;
+    width: 100%;
+}
+
+.projectImg img {
+    width: 100%;
+}
+
+.projectImg:hover:before ,
+.projectImg:hover .projectHoverIcon,
+.projectImg:hover .projectText {
+    opacity: 1;
+    visibility: visible;
+}
+
+.teamText {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    max-width: 220px;
+    width: 100%;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 0 15px;
+    
+}
+
+.teamName {
+    font-size: 20px;
+    font-family: 'exodemibold';
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.teamItemSliderItem {
+    margin-bottom: 25px;
+}
+
+
+.teamItemSlider .slick-dots li button:before {
+    content: "\f192";
+    color: #fff;
+    font-size: 20px;
+    font-family: "fontawesome";
+    opacity: 1;
+}
+
+
+.teamItemSlider .slick-dots li.slick-active button:before {
+    color: #f72e42;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	aboutWrap style
+\*------------------------------------*/
+
+
+.aboutBody {
+    background: url(../images/about-bg.png) no-repeat scroll 15px center / 500px auto;
+    min-height: 614px;
+    
+}
+
+.aboutTextWrap {
+	height: 380px;
+	display: table;
+	background: rgba(274,46,66,0.7);
+	max-width: 800px;
+	width: 100%;
+	padding: 45px;
+}
+
+.aboutTextContent {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.aboutText {
+	font-family: "exolight";
+	font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.aboutTextWrap .btn.fluent-btn {
+    border-color: #fff;
+}
+
+.aboutTextWrap .btn.fluent-btn:hover .dotCircle {
+    background-image: url(../images/dot-img-red.png);
+    color: #f72e42;
+}
+
+.aboutTextWrap .btn.fluent-btn:hover {
+    background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	contactWrap style
+\*------------------------------------*/
+
+
+
+
+.contactForm {
+    
+}
+
+.contactForm .form-group {
+    margin-bottom: 20px;
+}
+
+.contactForm .form-group input {
+    height: 50px;
+}
+
+.contactForm .form-group textarea {
+    height: 95px;
+}
+
+.contactForm .form-group input,
+.contactForm .form-group textarea {
+    background: transparent;
+    text-transform: uppercase;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: none;
+    color: #fff;
+    font-family: "exoregular";
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contactForm .form-group .form-control::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.2);
+}
+
+.contactForm .form-group .form-control::-moz-placeholder { 
+  color: rgba(255,255,255,0.2);
+}
+
+.contactForm .form-group .form-control:-ms-input-placeholder { 
+  color: rgba(255,255,255,0.2);
+}
+
+.contactForm .form-group .form-control:-moz-placeholder { 
+  color: rgba(255,255,255,0.2);
+}
+
+.contactForm .form-group input:focus,
+.contactForm .form-group textarea:focus {
+    border-color: #f72e42;
+}
+
+.contactForm .form-group .btn {
+    max-width: 100%;
+    font-size: 16px;
+    background: #f72e42;
+    border: 1px solid #f72e42;
+    color: #fff;
+}
+
+.contactForm .form-group .btn:hover {
+    opacity: 0.75;
+    background: #f72e42 ;
+}
+
+.contactAddress {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contactAddress li {
+    float: left;
+    margin-bottom: 30px;
+    max-width: 400px;
+    width: 100%;
+    display: block;
+}
+
+.contactAddress li .icon {
+    float: left;
+    margin-right: 25px;
+}
+
+.contactAddress li .icon img {
+    display: inline-block;
+    max-width: 30px;
+    width: 100%;
+}
+
+.contactAddress li .conLink {
+    font-family: "exolight";
+	font-size: 16px;
+	opacity:0.6;
+}
+
+.contactAddress li .conLink:hover a {
+	opacity:1;
+	color:#f72e42;
+}
+
+.contactAddress li a {
+    text-decoration: none;
+}
+
+.contactAddress li a:focus,
+.contactAddress li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    	footer style
+\*------------------------------------*/
+
+
+footer.fluent-footer {
+    background: url(../images/copy-right-bg1.png) no-repeat scroll bottom left / 700px 100%;
+    height: 120px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 75px 0 0 50px;
+    z-index: 2;
+    transition: all 0.5s;
+}
+
+.copyRightWrap {
+    font-size: 14px;
+    font-family: 'exolight';
+    letter-spacing: 1px;
+}
+
+.copyRightWrap a {
+    color: #000;
+    font-family: 'exodemibold';
+    transition: all 0.5s;
+}
+
+.copyRightWrap a:hover {
+    color: #f72e42;
+    transition: all 0.5s;
+}
+
+.scrollDown {
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
+    transition: all 0.5s;
+}
+
+.scrollDown img {
+	max-width: 17px;
+	width: 100%;
+}
