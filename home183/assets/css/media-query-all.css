@@ -1,0 +1,573 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	
+	
+	
+	
+}
+/*===--End of Media min-resolution: 192dpi--==*/
+
+
+
+@media (min-width:1390px) {
+	
+	
+	
+	
+
+}
+/*===--End of Media min-width:1920px--==*/
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+	
+	.home183-header .innerbg {
+		background: url("../images/maskHouse-banner-bg.png") no-repeat scroll center top / 700px 100%;
+		margin:0;
+		position:relative;
+	}
+    
+    .we-are-title {
+        font: 600 50px/79px "Montserrat",sans-serif;
+        margin:100px 0 15px;
+    }
+	
+	.tab-content.dashboard .tab-pane {
+		max-width:940px;
+	}
+	
+	.form-group.custom-search {
+		max-width:220px;		
+	}
+	
+	.submenu-right {
+		padding-top:0;		
+	}
+	
+	.filter-select {
+		max-width: 230px;		
+	}
+	
+	.filter-select .form-group {
+		max-width: 140px;
+		margin-left: 10px;
+	}
+	
+	.select-date {
+		max-width:410px;		
+	}
+	
+	.select-date .form-group {
+		width:150px;	
+	}
+   
+        
+}
+/*===--End of Media max-width:1024px--==*/
+
+
+
+
+@media (max-width:991px) {
+	
+	.home183-footer .inner-content {
+		padding: 0 20px;
+	}
+	
+	.home183-main-menu ul li {
+		padding:10px 14px;
+	}
+	
+	.back {
+		left:15px;
+	}
+	
+    
+}
+/*===--End of Media max-width-991px--==*/
+
+
+
+@media (min-width:768px) {
+	
+	.mb-show {
+		display:none !important;		
+	}
+		
+	
+	
+}
+/*===--End of Media min-width:768px--==*/
+
+
+
+
+@media (max-width:767px) {
+	
+	.mb-hide {
+		display:none !important;			
+	}
+	
+	.mb-show {
+		display:block !important;		
+	}
+		
+	.container > .row {
+		margin:0;
+	}
+	
+	.home183-header .container {
+		padding:0;		
+	}
+	
+	.home183-navigation {
+		padding: 20px 15px;
+	}
+	
+	.home183-navigation .brand-logo .navbar-toggle {
+		background:#262D34;
+		margin:15px 0 0;
+	}
+	
+	.home183-navigation .brand-logo .navbar-toggle .icon-bar {
+		background:#F7F7F7;
+	}
+	
+	.home183-main-menu ul li {
+		display:block;
+		width:100%;
+		text-align:center;
+		padding:12px 10px;
+	}
+	
+	.home183-main-menu ul li:first-child {
+		padding-top:30px;		
+	}
+	
+	.home183-main-menu ul li:last-child {
+		padding-right:10px;		
+	}
+	
+	.home183-main-menu ul li.get-started {
+		padding: 12px 10px;
+	}
+	
+	.home183-main-menu ul li.login {
+		padding: 25px 10px;
+	}
+	
+	.all-rights {
+		float: initial !important;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	
+	.home183-footer .footer-menu {
+		float: initial !important;
+		text-align: center;
+	}
+	
+	.home183-we-are-banner {
+		padding:0 20px;		
+	}
+	
+    .we-are-title {
+        font: 600 34px/34px "Montserrat",sans-serif;
+        margin:30px 0 25px;
+    }
+    
+    .we-are-sub-title {
+        font:300 16px/25px "Montserrat",sans-serif;
+        margin-bottom: 15px;
+    }
+    
+	.we-are-banner .try-button {
+        margin: 30px 0;
+    }
+	
+    .how-it-work-sub-title,
+    .easy-stape-title {
+        padding: 0 15px;
+    }
+	
+    .device-based-medile {
+        height: initial;
+        text-align: center;
+        display: block;
+    }
+	
+    .easy-stape-mobile-img img {
+        display: inline-block;
+    }
+	
+	.get-strated-wrap {
+		margin:0;		
+	}
+	
+	.home183-footer .inner-content {
+		padding: 0 10px;
+	}
+	
+	.technology-has {
+		padding:0;
+	}
+	
+	.dashboard-header {
+		padding:15px 0;
+	}
+	
+	.dashboard-main-menu .collapse {
+		padding: 0 15px;
+	}
+	
+	.dashboard-navigation .brand-logo {
+		padding:0;		
+	}
+	
+	.dashboard-navigation .brand-logo img {
+		margin-top: 0;
+	}
+		
+	.dashboard-navigation .brand-logo .navbar-toggle {
+		background:#F7F7F7;
+		margin:4px 0 0;
+	}
+	
+	.dashboard-navigation .brand-logo .navbar-toggle .icon-bar {
+		background:#262D34;
+	}
+	
+	.dashboard-main-menu ul {
+		float:initial !important;
+		display:block;
+		width:100%;
+	}
+	
+	.dashboard-main-menu ul li {
+		display:block;
+		width:100%;
+		text-align:center;
+		padding:12px 10px;
+	}
+	
+	.dashboard-main-menu ul li a {
+		line-height:26px;
+		padding-bottom:10px;
+	}
+	
+	.dashboard-main-menu ul li:last-child {
+		padding-right:10px;
+	}
+	
+	.tab-header li {
+		margin: 0 15px;
+	}
+	
+	.tab-content.dashboard .tab-pane {
+		padding: 80px 20px 40px;
+	}
+	
+	.submenu .submenu-left,
+	.submenu .submenu-right {
+		text-align:center;		
+	}
+	
+	.temperature-wrap {
+		float: initial !important;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+	
+	
+	.days-need-slider-wrap .slick-prev {
+		left:0;
+		z-index:100;
+	}
+	
+	.days-need-slider-wrap .slick-next {
+		right:0;
+		z-index:100;
+	}
+	
+	.start-details-inneritem {
+		display:block;
+		width:100%;
+		padding:0 10px;
+	}
+	
+	.start-details-inneritem h1 {
+		margin-top: 60px;
+	}
+	
+	.map-view-center {
+		margin-top: 20px;
+	}
+	
+	.map-view-form {
+		margin: 0 auto;
+		width:100%;
+	}
+	
+	.export-print {
+		margin:10px 0 25px;
+		text-align:center;		
+	}
+	
+	.tab-content-wrap .start-details-inneritem {
+		margin-bottom:30px;		
+	}
+	
+	.identification-wrap {
+		margin-top: 50px;
+	}
+	
+	.identification-wrap .identification-left {
+		margin-bottom:20px;
+	}
+	
+	.active-city li {
+		margin:0 15px;
+		font-size:13px;		
+	}
+	
+	.calender-wrap-left {
+		margin-top:20px;		
+	}
+	
+	.business-city table.table tr td:nth-child(1) {
+		width: 45%;
+	}
+	
+	.business-city table.table tr td:nth-child(2) {
+		width: 35%;
+	}
+	
+	.business-city table.table tr td:nth-child(3) {
+		width: 20%;
+	}
+	
+	.business-city table.table tr td .custom-file-input label {
+		width:110px;
+		font-size:10px;		
+	}
+	
+	.business-city table.table tr td .custom-file-input label img {
+		max-width:11px;
+		margin-right:6px;		
+	}
+	
+	.filter-table-wrap .table-content-wrap {
+		overflow-x:scroll;
+	}
+	
+	.filter-table-wrap .table-content-wrap table.table {
+		width:800px;
+		max-width:800px;
+	}
+	
+	.filter-select,
+	.select-date {
+		max-width: 100%;
+		width:100%;
+		margin-bottom:20px;	
+	}
+	
+	.location-text {
+		width: 76%;
+	}
+	
+	.modal-slider .carousel-control.right {
+		right: 15px;
+	}
+	
+	.modal-slider .carousel-control.left {
+		left: 15px;
+	}
+	
+	
+	.filter-month .form-group {
+		max-width: 140px;
+		margin-left: 15px;
+	}
+	
+	.add-upload-receipt .btn-global-style {
+		padding: 19px 26px;
+	}
+	
+	
+}
+/*===--End of Media max-width-767px--==*/
+
+
+
+@media (max-width:640px) {
+	
+	.export-report-form .back {
+		top: -20px;
+	}
+	
+	.location-text {
+		width: 70%;
+	}
+	
+	
+	
+    
+}
+/*===--End of Media max-width-640px--==*/
+
+
+
+
+@media (max-width:600px) {
+	
+	.location-img {
+		height: 80px;
+		margin-right: 15px;
+		max-width: 20%;
+	}
+	
+	.location-text {
+		width:71%;
+	}
+	
+	.filter-month .form-group {
+		max-width: 110px;
+		margin-left: 10px;
+	}
+	
+	.add-upload-receipt .btn-global-style {
+		padding: 16px 20px;
+	}
+	
+	.filter-month .form-group button {
+		background: #ffffff url("../images/select-down.png") no-repeat scroll right 12px center;
+		padding: 0 12px;
+	}
+	
+	
+	
+    
+}
+/*===--End of Media max-width-600px--==*/
+
+
+
+
+@media (max-width:420px){
+	
+	.easy-stape-item {
+        padding: 15px;
+    }
+    
+    .easy-stape-mobile-text {
+        font:600 22px/30px "Montserrat",sans-serif;
+    }
+	
+	.tab-header li {
+		margin: 0 12px;
+	}
+	
+	.tab-content.dashboard .form-group.share-group {
+		text-align:center;
+	}
+	
+	.tab-content.dashboard .form-group.share-group .btn {
+		margin:0 0 20px 0;
+	}
+	
+	.tab-content.dashboard .from-to-group select {
+		background: #fff url("../images/select-down.png") no-repeat scroll right 10px center;
+		width: 42%;
+	}
+	
+	.tab-content.dashboard .notifications-table tr td:nth-child(3) .custon-checkbox label::before {
+		right: 15px;
+	}
+	
+	.business-city table.table tr td {
+		font-size:10px;
+		line-height:36px;	
+	}
+	
+	.business-city table.table tr td .custon-checkbox label {
+		font-size:11px;		
+	}
+	
+	.form-group.select-country {
+		max-width:140px;		
+	}
+	
+	.form-group.custom-search {
+		max-width:190px;		
+	}
+	
+	.tab-content-wrap .container {
+		padding:0 5px;		
+	}
+	
+	.filter-month p {
+		display:block;		
+	}
+	
+	.filter-month .form-group {
+		max-width: 45%;
+		margin:10px 10px 10px 0;
+	}
+	
+	.filter-month-wrap .add-upload-receipt {
+		float:left !important;
+	}
+			
+}
+/*===--End of Media max-width-420px--==*/
+
+
+
+@media (max-width:390px){
+	
+	.tab-content.dashboard {
+		padding:0 15px;		
+	}
+	
+	.tab-content.dashboard .form-group .zip-code,
+	.tab-content.dashboard .form-group select.state {
+		width:47%;		
+	}
+	
+	.form-group.select-country,
+	.form-group.custom-search {
+		max-width:100%;		
+	}
+	
+	.business-city table.table tr td img {
+		max-width:30px;		
+	}
+	
+	.business-city table.table tr td .custom-file-input label {
+		width:90px;
+		font-size:8px;		
+	}
+	
+		
+}
+/*===--End of Media max-width-400px--==*/
+
+
+
+
+
+
+@media (max-width:340px){
+	
+	.we-are-title {
+        font:600 28px/30px "Montserrat",sans-serif;
+    }
+	
+	.tab-header li {
+		margin: 0 6px;
+	}
+	
+
+}
+/*===--End of Media max-width-340px--==*/
