@@ -1,0 +1,930 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=================================	
+	font-family 
+==================================*/
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700';
+
+@font-face {
+	font-family: 'GothamHTF-Book';
+	font-style: normal;
+	font-weight: normal;
+	src: local('../fonts/GothamHTF-Book'), url('../fonts/GothamHTF-Book.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'gotham_lightregular';
+    src: url('../fonts/ufonts.com_gotham-light-webfont.woff2') format('woff2'),
+         url('../fonts/ufonts.com_gotham-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*------------------------------------*\
+ 	Global style
+\*------------------------------------*/
+
+body {
+   font-family: 'Roboto', sans-serif; 
+   background:#fbfaf9;
+}
+
+a:focus, a:hover {
+	text-decoration:none;
+	color:#F73B56;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'GothamHTF-Book'; 
+	margin:0;
+}
+
+.block {
+	float:left;
+	width:100%;
+}
+
+.primary-color {
+	color:#fff;
+}
+
+.brand-color {
+	color:#e22e48;
+}
+
+.btn {
+	background:#F73B56;
+	color:#fff;
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:22px;
+	font-weight:300;
+	border-radius:25px;
+	padding:14px 30px;
+	border:none;
+	min-width:168px;
+}
+
+.btn:hover,
+.btn:focus {
+	background:#e22e48;
+	color:#fff;
+}
+
+
+
+
+/*------------------------------------*\
+    shokse header style
+\*------------------------------------*/
+
+header.shokse-header {
+	background:#fbfaf9;
+	padding:49px 0;
+}
+
+.shokse-header nav {
+	margin-bottom:0;
+}
+
+.shokse-header .navbar >.row {
+	margin:0;
+}
+
+.shokse-header .navbar-header .navbar-brand {
+	padding:0;
+}
+
+.shokse-header .navbar-header .navbar-brand img {
+	margin-top:0px;
+	max-width:150px;
+}
+
+.shokse-header .nav-menu-right {
+	
+}
+
+.shokse-header .nav-menu-right .main-menu {
+	float: right;
+	padding-left:0;
+	margin-bottom:0;
+}
+
+.shokse-header .nav-menu-right .main-menu li {
+	display: inline-block;
+    line-height: 50px;
+	list-style:none;
+	padding:0 20px;
+	float:initial;
+}
+
+.shokse-header .nav-menu-right .main-menu li a {
+	font-family: 'GothamHTF-Book';
+	font-size:18px;
+	line-height:28px;
+	font-weight:normal;
+	color:#8B8B8B;	
+	padding:0; 
+}
+
+.shokse-header .nav-menu-right .main-menu li a:hover,
+.shokse-header .nav-menu-right .main-menu li.active a {
+	color:#8B8B8B;
+	border-bottom:3px solid #F73B56;	
+	padding-bottom:6px;
+	background:none;
+}
+
+.shokse-header .nav-menu-right .main-menu li a:focus {
+	background:none;
+}
+
+.shokse-header .nav-menu-right .main-menu .get-started {
+	padding-right:0px;
+	border-left:2px solid #e9e8e7;
+	padding-left:30px;
+	margin-left:11px;
+}
+
+
+/*------------------------------------*\
+  	duis-quis style
+\*------------------------------------*/
+
+.duis-quis {
+	padding:62px 0 68px;
+	background:rgba(0, 0, 0, 0) url("../images/duis-quis-bg.png") no-repeat scroll left bottom / 100% auto;
+}
+
+.duis-quis h1 {
+	font-family: 'GothamHTF-Book';
+	font-size:52px;
+	line-height:62px;
+	font-weight:normal;
+	color:#8B8B8B;
+	margin-bottom:32px;
+}
+
+.duis-quis h6 {
+	font-family: 'gotham_lightregular';
+	font-size:18px;
+	line-height:26px;
+	font-weight:normal;
+	color:#8B8B8B;
+	max-width:940px;
+	margin:0 auto;
+}
+
+.duis-quis .get-started {
+	margin:36px 0 16px;
+}
+
+.duis-quis .learn-more {
+	font-family: 'gotham_lightregular';
+	font-size:14px;
+	line-height:18px;
+	font-weight:normal;
+	margin-bottom:54px;
+}
+
+.duis-quis .learn-more a {
+	color:#8B8B8B;
+}
+
+.duis-quis .learn-more a:hover {
+	text-decoration:underline;
+}
+
+
+
+/*------------------------------------*\
+  	trusted-by style
+\*------------------------------------*/
+
+.trusted-by {
+	background:#6BC5D3;
+	padding:40px 0;
+}
+
+.trusted-by h3 {
+	font-family: 'gotham_lightregular';
+	font-size:24px;
+	line-height:28px;
+	font-weight:normal;
+	margin:40px 0 30px;
+	text-transform:uppercase;
+}
+
+.trusted-by .trusted-logo {
+	float: left;
+    margin: 20px 0 83px;
+    padding-left: 0;
+    width: 100%;
+}
+
+
+.trusted-by .trusted-logo li {
+	list-style:none;
+	display:inline-block;
+	line-height:64px;
+	margin:0 31px;
+}
+
+.trusted-by .trusted-logo .slick-list {
+	margin-bottom:60px;
+}
+
+.trusted-by .trusted-logo .slick-dots {
+	
+}
+
+.trusted-by .trusted-logo .slick-dots li {
+	list-style:none;
+	margin:0;
+}
+
+.trusted-by .trusted-logo .slick-dots li button::before {
+	color:#fff;
+}
+
+.trusted-by .trusted-logo li:first-child {
+	margin-left:0;
+}
+
+.trusted-by .trusted-logo li:last-child {
+	margin-right:0;
+}
+
+.trusted-by .trusted-logo li a img {
+	
+}
+
+
+
+
+
+/*------------------------------------*\
+  	how-it-works style
+\*------------------------------------*/
+
+.how-it-works {
+	padding:40px 0;
+}
+
+.how-it-works .container {
+	max-width:1070px;
+	margin:0 auto;
+}
+
+.how-it-works h3 {
+	font-family: 'gotham_lightregular';
+	font-size:24px;
+	line-height:28px;
+	font-weight:normal;
+	margin:41px 0 40px;
+	color:#052847;
+	text-transform:uppercase;
+}
+
+.how-it-works .how-it-left {
+	padding-left:0;	
+}
+
+.how-it-works .how-it-left img {
+	margin-bottom:80px;	
+}
+
+
+.how-it-works .how-it-right {
+	padding-right:0;
+	margin-top:60px;
+}
+
+.how-it-works .how-it-right h6 {
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:30px;
+	font-weight:normal;
+	color:#8B8B8B;
+	border-bottom:1px solid #f00;
+	text-transform:uppercase;
+	display:inline-block;
+	clear:both;
+}
+
+.how-it-works .how-it-right h2 {
+	font-family: 'GothamHTF-Book';
+	font-size:30px;
+	line-height:38px;
+	font-weight:normal;
+	color:#052847;
+	margin:20px 0;
+}
+
+.how-it-works .how-it-right p {
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:28px;
+	font-weight:normal;
+	color:#8B8B8B;
+}
+
+
+
+
+
+/*------------------------------------*\
+  	why-shokse style
+\*------------------------------------*/
+
+.why-shokse {
+	background:rgba(185, 187, 189, 0.15) none repeat scroll 0 0;
+	padding:40px 0 98px;
+}
+
+.why-shokse .container {
+	max-width:1040px;
+	margin:0 auto;
+	padding:0;
+}
+
+.why-shokse h3 {
+	background: rgba(0, 0, 0, 0) url("../images/why-underline.png") no-repeat scroll center bottom;
+    color: #052847;
+    font-family: "gotham_lightregular";
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+    margin: 42px 0 17px;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+}
+
+.why-shokse p {
+	font-family: 'gotham_lightregular';
+	font-size:18px;
+	line-height:32px;
+	font-weight:normal;
+	color:#37536C;
+	max-width:785px;
+	margin:0 auto;
+}
+
+.why-shokse .container .row {
+	padding:0;
+	margin:50px 0 0;	
+}
+
+.why-shokse .why-item {
+	text-align:center;
+}
+
+.why-shokse .why-item img {
+	margin:20px 0;
+}
+
+.why-shokse .why-item h4 {
+	font-family: 'GothamHTF-Book';
+	font-size:22px;
+	line-height:28px;
+	font-weight:normal;
+	color:#052847;
+	margin:12px 0 10px;
+}
+
+.why-shokse .why-item small {
+	font-family: 'gotham_lightregular';
+	font-size:14px;
+	line-height:24px;
+	font-weight:normal;
+	color:#37536C;
+}
+
+
+
+
+
+/*------------------------------------*\
+  	services style
+\*------------------------------------*/
+
+.services {
+	padding:100px 0 60px;
+}
+
+.services .container {
+	padding:0;
+}
+
+.services .container > figure {
+	padding:0;
+}
+
+.services .services-left {
+	padding-left:0;
+	margin-top:101px;
+}
+
+.services .services-left h6 {
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:30px;
+	font-weight:normal;
+	color:#8B8B8B;
+	border-bottom:1px solid #f00;
+	text-transform:uppercase;
+	display:inline-block;
+	clear:both;
+}
+
+.services .services-left h2 {
+	font-family: 'GothamHTF-Book';
+	font-size:34px;
+	line-height:40px;
+	font-weight:normal;
+	color:#052847;
+	margin:28px 0;
+}
+
+.services .services-left p {
+	font-family: 'gotham_lightregular';
+	font-size:18px;
+	line-height:32px;
+	font-weight:normal;
+	color:#8B8B8B;
+}
+
+.services .services-right {
+	padding-right:0;
+}
+
+.services .services-right ul {
+	padding-left:0;
+	width:100%;
+	margin-bottom:0;
+}
+
+.services .services-right ul li {
+	list-style:none;
+	width:48%;
+	display:inline-block;
+	text-align:center;
+	margin-bottom:52px;
+}
+
+.services .services-right .img-blk {
+	min-height:128px;
+}
+
+.services .services-right ul li img {
+	vertical-align: text-top;
+}
+
+.services .services-right ul li h4 {
+	font-family: 'GothamHTF-Book';
+	font-size:22px;
+	line-height:25px;
+	font-weight:normal;
+	color:#052847;
+}
+
+
+
+
+/*------------------------------------*\
+  	shokse-testimonal style
+\*------------------------------------*/
+
+.shokse-testimonal {
+	background:rgba(185, 187, 189, 0.15) none repeat scroll 0 0;
+	padding:120px 0 76px;
+}
+
+.shokse-testimonal .container {
+	max-width:800px;	
+}
+
+.shokse-testimonal .row {
+	padding:0;
+	margin:0;
+}
+
+.shokse-testimonal p {
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:26px;
+	font-weight:normal;
+	color:#8B8B8B;
+}
+
+.shokse-testimonal .author-pic {
+	max-width:100px;
+	margin:40px 0 18px;	
+}
+
+.shokse-testimonal .author-name {
+	font-family: 'gotham_lightregular';
+	font-size:14px;
+	line-height:18px;
+	font-weight:normal;
+	color:#777777;
+	display:block;
+	width:100%;
+	text-align:center;
+	background:rgba(0, 0, 0, 0) url("../images/why-underline.png") no-repeat scroll center bottom;
+	padding-bottom:18px;
+}
+
+
+
+
+
+/*------------------------------------*\
+  	ready-to-start style
+\*------------------------------------*/
+
+.ready-to-start {
+	background:#F73B56;
+	padding:90px 0 94px;
+}
+
+.ready-to-start h2 {
+	font-family: 'gotham_lightregular';
+	font-size:32px;
+	line-height:42px;
+	font-weight:normal;
+	margin-bottom:0;
+	text-transform:uppercase;
+}
+
+.ready-to-start p button.btn {
+	background:#fff;
+	color:#F73B56;
+	margin-top:36px;
+}
+
+.ready-to-start p button.btn:hover {
+	background:#fafafa;
+	color:#F73B56;
+}
+
+
+/*------------------------------------*\
+  	shokse footer style
+\*------------------------------------*/
+
+.shokse-footer {
+	background:#6bc5d3;
+	padding:100px 0;
+}
+
+.shokse-footer-top {
+	padding:0;
+}
+
+.shokse-footer-top .footer-left {
+	text-align:left;
+	padding-left:0;
+}
+
+.shokse-footer-top .footer-right {
+	text-align:right;
+	padding-right:0;
+}
+
+.shokse-footer-top .footer-logo {
+	margin-bottom:30px;
+	display:inline-block;
+}
+
+.shokse-footer-top .footer-logo img {
+	max-width:150px;
+	width:100%;
+}
+
+.shokse-footer-top .shokse-matche {
+	font-size:14px;
+	line-height:26px;
+	font-family: 'gotham_lightregular';
+	max-width:381px;
+}
+
+
+.shokse-footer-top .footer-right ul {
+	padding-left:0;
+	margin-bottom:0;
+}
+
+.shokse-footer-top .footer-right ul li {
+	list-style:none;
+	display:inline-block;
+	text-align:left;
+	padding:0 25px;
+}
+
+.shokse-footer-top .footer-right ul li:last-child {
+	padding-right:0;
+}
+
+.shokse-footer-top .footer-right ul li h6 {
+	font-size:18px;
+	line-height:18px;
+	font-family: 'GothamHTF-Book';
+	color:#fff;
+	margin:10px 0 35px;
+}
+
+.shokse-footer-top .footer-right ul li a {
+	font-size:14px;
+	line-height:18px;
+	font-family: 'gotham_lightregular'; 
+	color:#fff;
+}
+
+.shokse-footer-top .footer-right ul li a:hover,
+.shokse-footer-top .footer-right ul li a:focus {
+	text-decoration:underline;
+}
+
+
+.shokse-footer-bottom {
+	margin-top:82px;
+	padding:0;
+}
+
+.shokse-footer-bottom .social-link {
+	text-align:left;
+	padding-left:0;
+}
+
+.shokse-footer-bottom .social-link a {
+	display:inline-block;
+	margin-right:8px;
+}
+
+.shokse-footer-bottom .social-link a img {
+	
+}
+
+.shokse-footer-bottom .copyWrite {
+	padding-right:0;
+	text-align:right;
+}
+
+.shokse-footer-bottom .copyWrite a {
+	font-size:14px;
+	line-height:18px;
+	font-family: 'gotham_lightregular'; 
+	color:#fff;
+	display:inline-block;
+	margin-left:40px;
+}
+
+.shokse-footer-bottom .copyWrite a:hover,
+.shokse-footer-bottom .copyWrite a:focus {
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+  	how it works page style
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+  	how-works style
+\*------------------------------------*/
+
+.how-works {
+	padding:56px 0 127px;
+	background:rgba(0, 0, 0, 0) url("../images/how-works-bg.png") no-repeat scroll center bottom / 100% 100%;
+}
+
+.how-works h1 {
+	font-family: 'GothamHTF-Book';
+	font-size:52px;
+	line-height:62px;
+	font-weight:normal;
+	color:#8B8B8B;
+	margin-bottom:30px;
+}
+
+.how-works h6 {
+	font-family: 'gotham_lightregular';
+	font-size:18px;
+	line-height:26px;
+	font-weight:normal;
+	color:#8B8B8B;
+	max-width:575px;
+	margin:0 auto;
+}
+
+
+
+
+/*------------------------------------*\
+  	create-project style
+\*------------------------------------*/
+
+.create-project {
+	padding:40px 0;
+}
+
+.create-project .container {
+	max-width:1070px;
+	margin:0 auto;
+}
+
+.create-project .project-left {
+	padding-left:0;	
+}
+
+.create-project .project-left img {
+	margin-bottom:80px;	
+}
+
+.create-project .project-right {
+	padding-right:0;
+}
+
+.create-project .project-right h6 {
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:30px;
+	font-weight:normal;
+	color:#8B8B8B;
+	border-bottom:1px solid #f00;
+	text-transform:uppercase;
+	display:inline-block;
+	clear:both;
+}
+
+.create-project .project-right h2 {
+	font-family: 'GothamHTF-Book';
+	font-size:30px;
+	line-height:38px;
+	font-weight:normal;
+	color:#052847;
+	margin-top:27px;
+	margin-bottom:17px;
+}
+
+.create-project .project-right p {
+	font-family: 'gotham_lightregular';
+	font-size:16px;
+	line-height:28px;
+	font-weight:normal;
+	color:#8B8B8B;
+}
+
+.create-project .project-right .pellentesque {
+	font-family: 'gotham_lightregular';
+	font-size:14px;
+	line-height:28px;
+	font-weight:normal;
+	color:#8B8B8B;
+	margin-top:43px;
+	margin-bottom:14px;
+}
+
+.create-project .project-right .pellentesque img {
+	padding-right:6px;
+}
+
+.create-project .project-right .jane {
+	font-family: 'gotham_lightregular';
+	font-size:14px;
+	line-height:28px;
+	font-weight:normal;
+	color:#8B8B8B;
+}
+
+.create-project .project-right .jane img {
+	padding-right:14px;
+}
+
+
+/*------------------------------------*\
+  	results style
+\*------------------------------------*/
+
+.results {
+	padding-top:19px;
+}
+
+.results .container-fluid {
+	padding:0;
+}
+
+.results .results-title {
+	max-width:790px;
+	margin:0 auto;
+}
+
+.results h3 {
+	background: rgba(0, 0, 0, 0) url("../images/why-underline.png") no-repeat scroll center bottom;
+	font-family: 'gotham_lightregular';
+	font-size:24px;
+	line-height:28px;
+	font-weight:normal;
+	margin:41px 0 19px;
+	padding-bottom:26px;
+	color:#052847;
+	text-transform:uppercase;
+}
+
+.results p {
+	font-family: 'gotham_lightregular';
+	font-size:18px;
+	line-height:32px;
+	font-weight:normal;
+	color:#37536C;
+	margin-bottom:80px;
+}
+
+
+.overview-cont {
+	width:100%;
+	padding-bottom:40px;	
+	margin:0 0 70px;
+}
+
+.overview-bg-right {
+	background:rgba(0, 0, 0, 0) url("../images/results-right-img.png") no-repeat scroll right top / auto 100%;
+}
+
+.overview-bg-left {
+	background:rgba(0, 0, 0, 0) url("../images/results-left-img.png") no-repeat scroll left top / auto 100%;
+}
+
+.overview-text {
+	max-width:480px;
+	display:inline-block;
+	margin-top:112px;
+}
+
+.overview-text-right  {
+	float:right;
+}
+
+.overview-text h6 {
+	border-bottom: 1px solid #ff0000;
+    clear: both;
+    color: #8b8b8b;
+    display: inline-block;
+    font-family: "gotham_lightregular";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.overview-text h2 {
+	color: #052847;
+    font-family: "GothamHTF-Book";
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 38px;
+    margin: 20px 0;
+}
+
+.overview-text p {
+	color:#8b8b8b;
+	font-family: "gotham_lightregular";
+	font-size:16px;
+	font-weight: normal;
+	line-height:28px;
+}
+
+.overview-img {
+	display:inline-block;
+	width:50%;
+}
+
+
+
+
+.horizontal-content-wrap-noscroll {
+	width:100%;
+	overflow:hidden;
+}
+
+.horizontal-content-wrap-scroll {
+	width:100%;
+	overflow:hidden;
+}
+
+.horizontal-content-wrap .step-content {
+	float:left;
+}
+
