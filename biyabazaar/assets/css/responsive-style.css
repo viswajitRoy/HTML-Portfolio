@@ -1,0 +1,447 @@
+
+@media (min-width:1380px ) {
+    
+    
+    
+}
+/* End of @media (min-width:1380px) */
+
+@media (max-width:1120px) and (min-width:680px) {
+    
+    .topBar_list_style li {
+        padding-right: 20px;
+    }
+
+    .topBar_list_style .login a {
+        font-size: 16px;
+    }
+
+    .mainMenu_center .navbar-nav .nav-item {
+        padding: 0 10px;
+    }
+
+    .categories_left,
+    .searchCart_right {
+        padding-top: initial;
+    }
+
+    .realStories_textRight h2 {
+        margin-bottom: 10px;
+        margin-top: 15px;
+    }
+
+    .realStories_textRight .text_msg {
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    .searchPrice_row .searchBar .form-control {
+        width: 72%;
+    }
+
+}
+/* End of @media (max-width:1120px) and (min-width:680px) */
+
+
+
+@media (max-width:1024px) and (min-width:768px) {
+    
+    .featuredPrd_items .productText .wishIcon {
+        right: 5px;
+    }
+
+    .filterCateg_row .items {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .filterCateg_row {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+
+    .searchPrice_row .searchBar .form-control {
+        width: 60%;
+    }
+
+    .categories_filter_wrap {
+        margin-top: -30px;
+    }
+	
+	
+    
+}
+/* End of @media (max-width:1024px) and (min-width:768px) */
+
+
+@media (max-width:991px) {
+
+    .header_topBar .container,
+    .header_topMenu .container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .topBar_list_style li {
+        padding-right: 10px;
+    }
+
+    .brand_logo {
+        padding: 5px 0 0;
+    }
+
+    .mobile_navIcon {
+        position: absolute;
+        right: 15px;
+        top: 18px;
+        z-index: 10;
+    }
+
+    .mobile_navIcon .navbar-toggler {
+        color: #0c2041;
+        padding: 0;
+        font-size: 24px;
+        transition: color 0.2s;
+    }
+
+    .mobile_navIcon .navbar-toggler:hover {
+        color: #f15350;
+    }
+
+    .categories_left,
+    .searchCart_right {
+        position: absolute;
+        top: 20px;
+        max-width: 170px;
+    }
+
+    .categories_left {
+        left: 0;
+    }
+    
+    .searchCart_right {
+        right: 45px;
+    }
+
+    .mainMenu_center {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .mainMenu_center .navbar-nav .nav-item {
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .mainMenu_center .navbar-nav .nav-item a {
+        display: inline-block;
+    }
+
+    .groomBride_cont,
+    .discountProduct_cont {
+        margin-top: 100px;
+    }
+
+    .exclusive_title {
+        margin-bottom: 15px;
+    }
+
+    .exclusive_text {
+        margin-bottom: 20px;
+    }
+
+    .exclusivePrd_row {
+        margin-top: 50px;
+    }
+
+    .realStories_textRight h2 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+    
+    .realStories_textRight .text_msg {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
+
+    .realStories_textRight h6 {
+        font-size: 14px;
+    }
+
+    .subscribe_form .form-control {
+        width: 78%;
+    }
+
+    .footerMenu_wrap .col-sm-3 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+
+    }
+   
+        
+	
+}
+/* End of @media (max-width:991px) */
+
+
+@media(min-width: 768px) {
+    
+    
+
+}
+/* End of @media (min-width:768px) */
+
+
+@media(max-width: 767px) {
+
+    .allAbout_center {
+        -ms-flex: 0 0 24%;
+        flex: 0 0 24%;
+        max-width: 24%;
+    }
+
+    .helpContact_left,
+    .loginRight {
+        -ms-flex: 0 0 38%;
+        flex: 0 0 38%;
+        max-width: 38%;
+    }
+
+    .categories_left, 
+    .searchCart_right {
+        top: 16px;
+    }
+
+    .featuredPrd_all .slick-prev {
+        left: 5%;
+    }
+
+    .featuredPrd_all .slick-next {
+        right: 5%;
+    }
+
+    .excl_textLeft,
+    .excl_imgRight,
+    .realStories_imgLeft,
+    .realStories_textRight {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .realStories_textRight {
+        padding: 30px 40px 40px;
+    }
+
+    .subscribe_form .form-control {
+        width: 70%;
+    }
+
+    .discountProduct_cont {
+        width: 90%;
+    }
+
+    .filterCateg_row .items {
+        width: calc(100% / 2);
+        margin-bottom: 20px;
+    }
+
+    .categories_filter_wrap .searchPrice_row {
+        float: left;
+    }
+
+    .categories_filter_wrap .priceRange,
+    .categories_filter_wrap .searchBar {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .searchPrice_row .searchBar .form-control {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .searchPrice_row .searchBar .btn {
+        min-width: initial;
+        width: 100%
+    }
+
+    .categories_filter_wrap {
+        margin-top: 40px;
+    }
+
+    
+
+
+
+}
+/* End of @media (max-width:767px) */
+
+
+@media(max-width: 667px) {
+ 
+    .helpContact_left,
+    .allAbout_center,
+    .loginRight {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .topBar_list_style li {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .header_topBar .topBar_list_style {
+        text-align: center !important;
+    }
+
+    .categories_left, .searchCart_right {
+        top: 8px;
+    }
+   
+
+
+}
+/* End of @media (max-width:667px) */
+
+
+@media(max-width: 580px) {
+
+    .brand_logo .navbar-brand img {
+        max-width: 150px;
+        margin: 10px auto 0;
+    }
+
+    .mobile_navIcon .navbar-toggler {
+        font-size: 21px;
+    }
+
+    .searchCart_right {
+        max-width: 110px;
+    }
+
+    .searchCart_right a {
+        margin-left: 2px;
+    }
+
+    .searchCart_right {
+        right: 35px;
+    }
+
+    .categories_left {
+        max-width: 130px;
+    }
+
+    .ctgMenu_icon {
+        font-size: 12px;
+    }
+
+    .ctgMenu_icon img {
+        max-width: 20px;
+        margin-top: -2px;
+    }
+
+    .newPrd_wrap .newPrd_items {
+        width: calc(100% / 2);
+    }
+
+    .newPrd_wrap .newPrd_items .imgWrap img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .groomBride_cont {
+        padding: 15px 20px 5px;
+        margin-top: 50px;
+    }
+
+    .groomBride_cont ul {
+        padding: 0 30px;
+    }
+
+    .discountProduct_cont {
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .discountProduct_cont .getDiscount {
+        font-size: 20px;
+    }
+
+    .discountProduct_cont .title {
+        font-size: 24px;
+        margin: 5px 0 25px;
+    }
+
+    .featuredPrd_items .productImg img {
+        width: 100%;
+    }
+
+    .press_logo_list li {
+        width: calc(100% / 2);
+        padding: 0 10px;
+    }
+
+    .press_logo_list {
+        margin: 0;
+    }
+
+    .subscribe_form .form-control,
+    .subscribe_form .btn {
+        width: 100%;
+    }
+
+    .exclusivePrd_row .featuredPrd_items {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .categories_filter_wrap .priceRange,
+    .categories_filter_wrap .searchBar {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .filterCateg_row .items {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+   
+
+
+}
+/* End of @media (max-width:580) */
+
+
+
+
+
+@media(max-width: 440px) {
+    .footerMenu_wrap .col-sm-3 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .letDream {
+        margin-top: 20px;
+    }
+
+    .searchCart_right a img {
+        max-width: 15px;
+    }
+    
+    
+}
+/* End of @media (max-width:440px) */
+
+
+
