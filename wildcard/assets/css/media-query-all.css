@@ -1,0 +1,288 @@
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	
+	.culture-wrap,
+	.technology-wrap,
+	.case-studies-wrap {
+		line-height:100vh;
+	}
+	
+}
+/*===--End of Media min-resolution: 192dpi--==*/
+
+
+@media (min-width:2660px) {	
+	
+	
+	
+	
+	
+}
+/*===--End of Media max-width:2660px--==*/
+
+
+
+@media (min-width:3800px) {	
+	
+	
+	
+	
+	
+	
+}
+
+
+@media (min-width:2580px) {
+	
+	.culture-wrap,
+	.technology-wrap,
+	.case-studies-wrap {
+		line-height:110vh;
+	}	
+	
+	
+	
+
+}
+/*===--End of Media min-width:2580px--==*/
+
+
+
+
+@media (max-width:1940px) {
+	
+	.culture-wrap,
+	.technology-wrap,
+	.case-studies-wrap {
+		line-height:100vh;
+		/*line-height:974px;*/
+	}	
+	
+	
+
+}
+/*===--End of Media max-width:1940px--==*/
+
+
+@media (max-width:1290px) {
+	
+	.culture-wrap,
+	.technology-wrap,
+	.case-studies-wrap {
+		line-height:100vh;
+		/*line-height:664px;*/
+	}	
+	
+	.technology-content-wraper::after {
+		background-size:100% 100%;
+	}
+	
+	
+
+}
+/*===--End of Media max-width:1290px--==*/
+
+
+
+@media (max-width:1200px) {
+	
+	.wildcard-homeV2 .culture-wrap .work-text,
+	.wildcard-homeV2 .technology-wrap .work-text,
+	.wildcard-homeV2 .case-studies-wrap .work-text {
+		font-size:26px;
+	}
+	
+	.wildcard-homeV2 .culture-wrap .work-text {
+		padding:40px 60px;
+	}
+	
+	.wildcard-homeV2 .technology-wrap .work-text {
+		padding:60px 40px;
+	}
+	
+	.wildcard-homeV2 .case-studies-wrap .work-text {
+		padding:30px 40px;
+	}
+	
+	
+
+}
+/*===--End of Media max-width:1200px--==*/
+
+
+
+
+@media (max-width:1024px) {
+	
+	.process-item {
+    	min-height: 320px;
+	}
+	
+	.process-next-icon {
+		background-size:90% auto;
+	}
+	
+	.wildcard-homeV2 .case-studies-wrap .work-text {
+		padding:30px 20px;
+	}
+	
+	.wildcard-nav-menu ul.navbar-nav li a {
+		margin:0 15px;		
+	}
+	
+	.wildcard-nav-menu ul li.menu-expand-arrow a {
+		margin-right:25px;
+		
+	}
+	
+	
+	
+	
+	
+
+}
+/*===--End of Media max-width:1024px--==*/
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+	
+	
+	
+	
+	
+	
+	
+}
+/*===--End of Media min-width:768px and max-width:1024px--==*/
+
+
+
+
+@media (max-width:991px) {
+	
+	
+	
+	
+	
+
+	
+	
+	
+}
+/*===--End of Media max-width-991px--==*/
+
+
+
+
+
+@media (min-width:768px) {
+	
+	
+	
+	
+	
+	
+	
+}
+/*===--End of Media min-width-768px--==*/
+
+
+
+@media (max-width:767px) {
+	
+	
+	
+	.wildcard-homeV2 .culture-wrap .work-text,
+	.wildcard-homeV2 .technology-wrap .work-text,
+	.wildcard-homeV2 .case-studies-wrap .work-text {
+		padding-left:40px;
+		padding-right:40px;
+	}
+
+
+	.process-item {
+    	min-height:inherit;
+		margin-bottom:30px;
+		
+		background: rgba(0, 0, 0, 0) url("../images/next-process-iconMB.png") no-repeat scroll center bottom / auto 100px;
+		padding-bottom:120px;
+	}
+	
+	.process-item:last-child {
+		background:none;
+		padding-bottom:0;
+	}
+	
+	
+	
+}
+/*===--End of Media max-width-767px--==*/
+
+
+
+
+
+@media (max-width:640px) {
+	
+	
+	
+	
+		
+		
+		
+}
+/*===--End of Media max-width-640px--==*/
+
+
+
+@media (max-width:570px){
+	
+	
+	
+	
+	
+		
+}
+/*===--End of Media max-width-570px--==*/
+
+
+
+@media (max-width:420px){
+	
+	
+	
+	
+	
+		
+}
+/*===--End of Media max-width-420px--==*/
+
+
+
+
+
+
+@media (max-width:380px){
+	
+	
+		
+}
+/*===--End of Media max-width-380px--==*/
+
+
+
+
+
+@media (max-width:340px){
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
+/*===--End of Media max-width-340px--==*/
