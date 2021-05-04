@@ -1156,7 +1156,6 @@ textarea.form-control {
     .constik-responsive-nav {
         display: block;
         background: #fff;
-        border: 2px solid #35bfb4;
         padding-top: 15px;
         padding-bottom: 15px
     }
@@ -1262,6 +1261,7 @@ textarea.form-control {
     .side-option-responsive .item .search i {
         vertical-align: middle
     }
+
 }
 
 .home-banner-area {
@@ -1563,6 +1563,13 @@ textarea.form-control {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center
+}
+
+.service-details-area .widget-area .download-item a {
+    color: #ffffff;
+}
+.service-details-area .widget-area .download-item a:hover {
+    color: #35bfb4;
 }
 
 .about-section .about-fact::after {
@@ -3849,6 +3856,17 @@ textarea.form-control {
     transition: .5s
 }
 
+.amazing-projects-slider .slider-item .overlay-content::after {
+    position: absolute;
+    content: '';
+    bottom: -50px;
+    left: -50px;
+    border-bottom: 100px solid rgba(53, 191, 180, .8);
+    border-right: 100px solid transparent;
+    -webkit-transition: .5s;
+    transition: .5s
+}
+
 .amazing-projects-slider .slider-item .overlay-content h3 a {
     color: #fff
 }
@@ -3874,6 +3892,11 @@ textarea.form-control {
 .amazing-projects-slider .slider-item:hover .overlay-content::before {
     top: 10px;
     right: 10px
+}
+
+.amazing-projects-slider .slider-item:hover .overlay-content::after {
+    bottom: 10px;
+    left: 10px
 }
 
 .amazing-projects-slider .owl-nav {
@@ -4979,6 +5002,21 @@ textarea.form-control {
     left: 0
 }
 
+.service-details-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.service-details-area .project-info .info-list.customized li span,
+.service-details-area .project-info .info-list.customized li:last-child span {
+    min-height: initial;
+
+}
+
+.service-details-title span {
+    color: #35bfb4;
+}
+
 .service-details-area, .terms-area, .privacy-area {
     padding-bottom: 60px
 }
@@ -4989,17 +5027,19 @@ textarea.form-control {
 
 .service-details-area .project-info, .terms-area .project-info, .privacy-area .project-info {
     position: relative;
-    padding: 30px 25px;
+    padding: 30px 25px 25px 35px;
     background: #35bfb4;
     text-align: center;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+    margin-left: -40px;
+    z-index: -1;
 }
 
 .service-details-area .project-info h3, .terms-area .project-info h3, .privacy-area .project-info h3 {
     line-height: 1;
-    margin-bottom: 15px;
     text-transform: capitalize;
-    color: #fff
+    color: #001e4c;
+    min-height: 56px;
 }
 
 .service-details-area .project-info p, .terms-area .project-info p, .privacy-area .project-info p {
@@ -5013,15 +5053,19 @@ textarea.form-control {
 
 .service-details-area .project-info .info-list, .terms-area .project-info .info-list, .privacy-area .project-info .info-list {
     padding: 0;
-    margin: 0;
+    margin: 0 0 6px;
     list-style-type: none;
     text-align: left
+}
+
+.service-details-area .project-info .info-list li:last-child span {
+    min-height: 72px;
 }
 
 .service-details-area .project-info .info-list li, .terms-area .project-info .info-list li, .privacy-area .project-info .info-list li {
     position: relative;
     padding: 12px 14px;
-    background: #fff9e9;
+    background: #e9fefc;
     margin-bottom: 16px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -5029,9 +5073,10 @@ textarea.form-control {
 }
 
 .service-details-area .project-info .info-list li i, .terms-area .project-info .info-list li i, .privacy-area .project-info .info-list li i {
-    vertical-align: -2px;
+    vertical-align: -1px;
     margin-right: 8px;
-    color: #001e4c
+    color: #001e4c;
+    font-size: 14px;
 }
 
 .service-details-area .project-info .info-list li a, .terms-area .project-info .info-list li a, .privacy-area .project-info .info-list li a {
@@ -5041,16 +5086,18 @@ textarea.form-control {
     display: inline-block;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%
+    flex: 0 0 35%;
+    max-width: 35%;
 }
 
 .service-details-area .project-info .info-list li span, .terms-area .project-info .info-list li span, .privacy-area .project-info .info-list li span {
     display: inline-block;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%
+    flex: 0 0 65%;
+    max-width: 65%;
+    font-weight: 500;
+    min-height: 48px;
 }
 
 .service-details-area .project-info .info-list li:last-child, .terms-area .project-info .info-list li:last-child, .privacy-area .project-info .info-list li:last-child {
