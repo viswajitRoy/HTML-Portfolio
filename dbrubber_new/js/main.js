@@ -222,7 +222,7 @@ $(function () {
 
   // brands slider
   var swiper = new Swiper(".qrt-brands-slider", {
-    slidesPerView: 4,
+    slidesPerView: 5,
     speed: 6000,
     loop: true,
     spaceBetween: 20,
