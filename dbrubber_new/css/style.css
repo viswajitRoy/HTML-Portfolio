@@ -1502,7 +1502,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 40px;
-  background-color: rgba(40, 41, 44, 0.6);
+  background: linear-gradient(269.62deg, rgba(247, 148, 29, 0.5) -0.85%, rgba(164, 47, 5, 0.4) 100%);
   display: flex;
   align-items: center;
 }
@@ -1985,6 +1985,11 @@ content
   padding-bottom: 55%;
 }
 
+.qrt-page-cover.aboutus {
+  padding-bottom: 46%;
+}
+
+
 .qrt-page-cover img {
   position: absolute;
   top: 0;
@@ -2000,8 +2005,8 @@ content
 }
 
 .qrt-page-cover .qrt-about-info {
-  padding: 20px 30px;
-  max-width: 420px;
+  padding: 16px 24px;
+  max-width: 520px;
   width: 100%;
   background-color: #263285;
   position: absolute;
@@ -2386,7 +2391,8 @@ content
 }
 
 .qrt-brands-slider .swiper-slide img {
-  width: 90px;
+  width: 100%;
+  max-width: 160px;
   margin-left: auto;
   margin-right: auto;
 }
